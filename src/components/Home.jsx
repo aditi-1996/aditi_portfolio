@@ -8,12 +8,12 @@ const Home = () => {
   return (
     <div
       name="home"
-      className="h-screen w-full bg-gradient-to-b from-black via-black to-gray-800 home"
+      className="h-screen w-full bg-gradient-to-r from-red-100 to-indigo-200 home"
     >
       <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row">
         <ProfilePhoto className={'small-screen hidden'} />
         <div className="flex flex-col justify-center h-full">
-          <h2 className="text-4xl sm:text-4xl font-bold text-white">
+          <h2 className="text-4xl sm:text-4xl font-bold text-black">
             {aboutData.headline}
           </h2>
           <div className="small-screen hidden">
@@ -34,3 +34,4 @@ const Home = () => {
 };
 
 export default Home;
+

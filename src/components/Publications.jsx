@@ -6,9 +6,9 @@ const Publications = () => {
     return (
         <div
             name="publications"
-            className="w-full bg-gradient-to-b from-gray-800 to-black text-white publications"
+            className="w-full bg-gradient-to-r from-red-100 to-indigo-200 text-black publications"
         >
-            <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-white">
+            <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-black">
                 <div class="pb-8">
                     <p className="text-4xl font-bold border-b-4 border-gray-500 p-2 inline">
                         Publications
@@ -18,13 +18,13 @@ const Publications = () => {
                     {PublicationData.map((elem, idx) => {
                         // Card
                         return (
-                            <div class="bg-gradient-to-b from-black via-black to-gray-800 border border-white rounded-lg shadow-md">
+                            <div class="bg-gradient-to-r from-red-100 to-indigo-200 border border-black rounded-lg shadow-md">
                                 <a href={elem.href}>
-                                    <img class="rounded-lg object-scale-down shadow-md shadow-white h-48 w-full" src={elem.image_path} alt="" />
+                                    <img class="rounded-lg object-scale-down shadow-md shadow-black h-48 w-full" src={elem.image_path} alt="" />
                                 </a>
                                 <div class="p-5">
                                     <a href={elem.href}>
-                                        <h5 class="mb-2 text-2xl font-bold tracking-tight text-white text-left">{elem.title}</h5>
+                                        <h5 class="mb-2 text-2xl font-bold tracking-tight text-black text-left">{elem.title}</h5>
                                     </a>
                                     <div class="pb-2">
                                         <a href={elem.href} class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">

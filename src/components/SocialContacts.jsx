@@ -25,7 +25,7 @@ const SocialContacts = (props) => {
                         className='landing--social'
                         aria-label='LinkedIn'
                         size={32}
-                        color="white"
+                        color="black"
                     />
                 </a>
             )}
@@ -39,7 +39,7 @@ const SocialContacts = (props) => {
                         className='landing--social'
                         aria-label='GitHub'
                         size={32}
-                        color="white"
+                        color="black"
                     />
                 </a>
             )}
@@ -53,7 +53,7 @@ const SocialContacts = (props) => {
                         className='landing--social'
                         aria-label='googlescholar'
                         size={32}
-                        color="white"
+                        color="black"
                     />
                 </a>
             )}
@@ -68,7 +68,7 @@ const SocialContacts = (props) => {
                         className='landing--social'
                         aria-label='Resume'
                         size={32}
-                        color="white"
+                        color="black"
                     />
                 </a>
             )}
